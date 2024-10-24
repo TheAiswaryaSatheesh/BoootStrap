@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1c2964;
+    color: white;
+    text-align: center;
+    padding: 1px 0;  /* Slightly reduced padding */
+    font-size: 1.5rem;  /* Visible font size */
+    z-index: 100;
+  }
+  
+  .fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1c2964;
+    color: white;
+    text-align: center;
+    padding: 1px 0;  /* Slightly reduced padding */
+    font-size: 1.5rem;  /* Visible font size */
+    z-index: 100;
+  }
+  
+  .scrollable-content {
+    margin-top: 65px; /* Adjusted for smaller top */
+    margin-bottom: 80px; /* Adjusted for smaller bottom */
+    padding: 20px;
+    height: calc(100vh - 120px); /* Ensures content fits and is scrollable */
+    overflow-y: auto;
+    background-color: #f4f4f4;
+  }
+
+  .bg-custom {
+    background-color: #06284c; /* Change this to your desired color */
+}
+  
+
+  
